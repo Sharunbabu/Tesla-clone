@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+
+body {
+    height: 100%;
+}
+
+.teslalogo {
+
+    height: 20px;
+    width: 120px;
+    margin: 1rem 0 0 3rem;
+
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.center-nav {
+    height: 2rem;
+    flex: 8;
+
+}
+
+.right-nav {
+
+    flex: 3;
+    margin: 0px;
+    display: flex;
+
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    margin: 0 0.5rem;
+
+}
+
+.nav-list>a {
+    text-decoration: none;
+    width: 2rem;
+    color: white;
+    padding: 6px 7px;
+    font-weight: var(--font-weight);
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-list>a:hover {
+    background-color: rgb(139, 152, 176);
+    border-radius: 10px;
+
+
+
+}
+
+.img1 {
+    background: url(Assets/Images/Homepage-Model-Y-Desktop-US-v2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100%;
+    padding-top: 6vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    position: relative;
+}
+
+.header-container>.header1 {
+    font-size: 56px;
+    font-weight: 500;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header-container>h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+.header-container>p {
+    color: white;
+    font-weight: 600;
+}
+
+.button,
+.button1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    gap: 20px;
+
+    cursor: pointer;
+}
+
+.button1 {
+    bottom: 110px;
+}
+
+.button a {
+    padding: 7px 30px;
+    height: 40px;
+    width: 15rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button1 a {
+    padding: 7px 30px;
+    height: 40px;
+    width: 15rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn1 {
+    background-color: rgb(64, 64, 240);
+    color: white;
+
+
+}
+
+.btn2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+.img2{
+    background: url(Assets/Images/Homepage-Model-3-Desktop-US.png);
+    background-size: cover;
+}
+.img3{
+    background: url(Assets/Images/Homepage-Model-X-Desktop-US.png);
+    background-size: cover;
+}
+.img4{
+    background: url(Assets/Images/Homepage-Model-S-Desktop-US.png);
+    background-size: cover;
+}
+.img5{
+    background: url(Assets/Images/Homepage-Cybertruck-Desktop-v3.png);
+    background-size: cover;
+}
+.img6{
+    background: url(Assets/Images/Homepage-SolarPanels-01-Desktop.avif);
+    background-size: cover;
+}
+.img7{
+    background: url(Assets/Images/Homepage-SolarRoof-Desktop-US.png);
+    background-size: cover;
+}
+.img8{
+    background: url(Assets/Images/Homepage-Powerwall-Desktop-US.png);
+    background-size: cover;
+}
+.img9{
+    background: url(Assets/Images/Homepage-Accessories-Desktop-US.png);
+    background-size: cover;
+}
+.cybertruck{
+    background-color:black;
+    color: gray;
+    text-transform: uppercase;
+}
+footer{
+    font-family: "apple-system", Arial, sans-serif ;
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 18px;
+    color:white;
+    
+}
+.footer-container{
+    width: 100%;
+    padding-top: 20px;
+    padding-left:400px ;
+    padding-right: 400px;
+}
+.footer-container div{
+    
+    margin-top: 20px;
+
+}
+
+.footer-container div p{
+    text-align: center;
+}
+.footer-container span{
+    text-decoration: underline;
+}
+
+
+.footer-links ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.footer-links ul li{
+    font-size:10px ;
+}
+.footer-links{
+    margin-top: 50px;
+}
